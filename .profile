@@ -9,8 +9,8 @@ alias bec="bundle exec cucumber"
 # Finished adapting your PATH environment variable for use with MacPorts.
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
-alias maketags='rm TAGS && /opt/local/bin/ctags -a -e -f TAGS --tag-relative -R app lib vendor .bundle public/javascripts' 
-alias maketagsor='rm TAGS && /opt/local/bin/ctags -a -e -f TAGS --tag-relative -R app lib  extensions test vendor'
+alias maketags='rm TAGS && /usr/local/bin/ctags -a -e -f TAGS --tag-relative -R app lib vendor .bundle public/javascripts' 
+alias maketagsor='rm TAGS && /usr/local/bin/ctags -a -e -f TAGS --tag-relative -R app lib  extensions test vendor'
 
 export PS1="\w$ "
 alias br='bundle exec rspec'
